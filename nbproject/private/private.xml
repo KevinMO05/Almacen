@@ -3,14 +3,8 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/kevin/OneDrive/Documentos/NetBeansProjects/Almacen/web/Usuarios/new.jsp</file>
-            <file>file:/C:/Users/kevin/OneDrive/Documentos/NetBeansProjects/Almacen/src/java/model/usuarios.java</file>
-            <file>file:/C:/Users/kevin/OneDrive/Documentos/NetBeansProjects/Almacen/web/Usuarios/index.jsp</file>
-            <file>file:/C:/Users/kevin/OneDrive/Documentos/NetBeansProjects/Almacen/web/Usuarios/modify.jsp</file>
-            <file>file:/C:/Users/kevin/OneDrive/Documentos/NetBeansProjects/Almacen/src/java/config/conexion.java</file>
-            <file>file:/C:/Users/kevin/OneDrive/Documentos/NetBeansProjects/Almacen/src/java/model/usuariosDAO.java</file>
+            <file>file:/C:/Users/kevin/OneDrive/Documentos/NetBeansProjects/Almacen/src/java/images/register.png</file>
             <file>file:/C:/Users/kevin/OneDrive/Documentos/NetBeansProjects/Almacen/web/index.html</file>
-            <file>file:/C:/Users/kevin/OneDrive/Documentos/NetBeansProjects/Almacen/src/java/controller/UsuariosController.java</file>
         </group>
     </open-files>
 </project-private>
