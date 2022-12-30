@@ -7,30 +7,81 @@
         <style>
             @import url('https://fonts.googleapis.com/css2?family=Exo:wght@400;500;600&display=swap');
             *{
-                padding: 0;
-                margin: 0;
+                padding: 0px;
+                margin: 0px;
                 box-sizing: 0;
             }
 
-
-            img{
-                width: 1290px;
-                height: 670px;
-                overflow: hidden;
-                display: block;
-                justify-content: center;
+            body{
+                background-color: rgb(23, 21, 21);
+                overflow-x: hidden;
             }
 
-        </style>
+            .container {
+                width: 1365px;
+                height: 649px;      
+                display: flex;
+                justify-content: center;
+                background-image: url('Sign Up (1).jpg');
+            }
+            
+            .name {
+                width: 662px;
+                height: 40px;
+                position: absolute;
+               top: 270px; 
+               left: 662px;
+               padding-left: 10px;
+            }
+            
+            .email{
+                width: 662px;
+                height: 40px;
+                position: absolute;
+                left: 662px;
+                top: 350px; 
+                padding-left: 10px;
+            }
+            
+            .pass{
+                width: 662px;
+                height: 40px;
+                position: absolute;
+                left: 662px;
+                top: 430px; 
+                padding-left: 10px;
+            }
+            
+            .create{
+                width: 676px;
+                height: 55px;
+                 position: absolute;
+                left: 662px;
+                top: 520px; 
+                font-family: 'Exo';
+                font-size: 16px;
+            }
+            p{
+                margin-top: 590px;
+                margin-left: 225px;
+                font-family: 'Exo';
+                font-size: 16px;
+                
+            }
+
+          
+
+        </style> 
     </head>
 
     <body>
-        <!-- <div class="container">
-             <img src="register.png" alt="alt"/>
-         </div> --> 
-        
-        
-
-
-</body>
-</html>
+        <div class="container">
+            <input type="text" name="name" placeholder="Nombre Completo" class="name">
+            <input type="email" name="email" placeholder="Correo electronico" class="email">
+            <input type="password" name="pass" placeholder="Contraseña" class="pass">
+            <input type="submit" name="create" class="create" />
+            <p>Ya tienes una cuenta? <a href="#">Iniciar sesión</a></p>
+            
+         </div> 
+    </body>
+    </html>
