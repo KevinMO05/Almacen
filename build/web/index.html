@@ -6,6 +6,7 @@
         <title>Almacen</title>
         <style>
             @import url('https://fonts.googleapis.com/css2?family=Exo:wght@400;500;600&display=swap');
+            
             *{
                 padding: 0px;
                 margin: 0px;
@@ -19,57 +20,82 @@
 
             .container {
                 width: 1365px;
-                height: 649px;      
+                height: 649px;
                 display: flex;
                 justify-content: center;
                 background-image: url('Sign Up (1).jpg');
             }
-            
+
             .name {
                 width: 662px;
                 height: 40px;
                 position: absolute;
-               top: 270px; 
-               left: 662px;
-               padding-left: 10px;
+                top: 270px;
+                left: 662px;
+                padding-left: 10px;
+                font-family: 'Exo';
+                 font-size: 16px;
             }
-            
+
             .email{
                 width: 662px;
                 height: 40px;
                 position: absolute;
                 left: 662px;
-                top: 350px; 
+                top: 350px;
                 padding-left: 10px;
+                font-family: 'Exo';
+                font-size: 16px;
             }
-            
+
             .pass{
                 width: 662px;
                 height: 40px;
                 position: absolute;
                 left: 662px;
-                top: 430px; 
+                top: 430px;
                 padding-left: 10px;
+                font-family: 'Exo';
+                 font-size: 16px;
             }
-            
+
             .create{
                 width: 676px;
                 height: 55px;
-                 position: absolute;
+                position: absolute;
                 left: 662px;
-                top: 520px; 
+                top: 520px;
                 font-family: 'Exo';
-                font-size: 16px;
+                font-size: 20px;
             }
+            
             p{
                 margin-top: 590px;
-                margin-left: 225px;
+                margin-left: 200px;
                 font-family: 'Exo';
-                font-size: 16px;
-                
+                font-size: 14px;
+                color: rgba(93, 109, 126,0.9);
+            }
+            
+            a{
+              color: #8BB2B2;
+            }
+            
+            .name, .email , .pass{
+                border-left: none;
+                border-right: none;
+                border-top: none;
+                border-bottom: 1.5px solid rgba(93, 109, 126,0.5);
             }
 
-          
+            .create{
+                border: none;
+                background: #8BB2B2;
+                border-radius: 6px;
+                color: white;
+            }
+
+
 
         </style> 
     </head>
@@ -81,7 +107,7 @@
             <input type="password" name="pass" placeholder="Contraseña" class="pass">
             <input type="submit" name="create" class="create" />
             <p>Ya tienes una cuenta? <a href="#">Iniciar sesión</a></p>
-            
-         </div> 
+
+        </div> 
     </body>
-    </html>
+</html>
